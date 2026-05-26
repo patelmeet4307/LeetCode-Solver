@@ -15,4 +15,8 @@ A Chrome extension that injects an AI-powered assistant directly into LeetCode. 
 🛠 Tech Stack:
 JavaScript, Chrome Extension (Manifest V3), Gemini API, HTML, CSS
 
+<<<<<<< HEAD
 Built using VS Code
+=======
+Built using VS Code
+>>>>>>> 54ed3a6 (Update README and content script)
