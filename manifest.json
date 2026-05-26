@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode AI Helper",
+  "version": "2.0",
+  "permissions": ["activeTab"],
+  "host_permissions": [
+    "https://leetcode.com/*",
+    "https://api.openai.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/problems/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
